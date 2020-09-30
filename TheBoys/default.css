@@ -1,7 +1,36 @@
+*{
+	box-sizing: border-box;
+	display:box;
+}
+body{
+	padding:0;
+	margin:0;
+}
+/*BEGIN OF HEADER STYLING*/
+.row{
+	width:90%;
+	margin:auto;
+}
+.navbar{
+	height:70px;
+	border-bottom: 1px solid black;
+}
 a.navbar-brand{
 	text-decoration: none;
 	color:#2a73cc;
+	float:left;
 }
-/*a.navbar-brand:visited{
-
-}*/
+.navbar-brand h1{
+	margin:10px;
+}
+.navbar .name-catagory{
+	float:right;
+	margin-left:20px;
+	margin-right:20px;
+	text-decoration: none;
+	color:black;
+}
+.name-catagory p{
+	margin-top:25px;
+}
+/*END OF HEADER STYLING*/
