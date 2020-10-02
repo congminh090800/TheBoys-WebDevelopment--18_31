@@ -96,8 +96,17 @@ img{
 	overflow: auto;
 	width:100%;
 }
-.minh-container p, .minh-container h3{
-	padding-top:50px;
+.minh-container table tr{
+	height:70px;
+}
+.minh-container table tr td{
+	text-align: left;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:1.2em;
+}
+.minh-container table tr th{
+	font-size:25px;
 }
 .minh-container p span{
 	font-weight: bold;
@@ -110,7 +119,6 @@ img{
 	margin-bottom:50px;
 }
 .minh-container button{
-	margin-top:50px;
 	background: none;
 	border:1px solid #2554a4;
 	padding:10px 20px;
@@ -119,11 +127,19 @@ img{
 	cursor:pointer;
 	color:#2554a4;
 	border-radius: 5px;
+	margin-bottom:50px;
 }
 .minh-container button:hover{
 	background-color: #2554a4;
 	color:white;
 	box-shadow: 2px 5px 10px #2554a4;
+}
+.minh-container section{
+	width:40%;
+	margin-top:50px;
+}
+.minh-container table tr td a{
+	color:#2554a4;
 }
 /*END OF CONTENT STYLING*/
 /*FOOTER*/
@@ -148,5 +164,8 @@ img{
 @media (max-width: 767px) {
 	.name-area{
 		display:none;
+	}
+	#minh-pic{
+		float:none;
 	}
 }
