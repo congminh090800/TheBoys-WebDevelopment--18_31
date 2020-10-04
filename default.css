@@ -140,6 +140,60 @@ img{
 .minh-container table tr td a{
 	color:#2554a4;
 }
+/*----LUAN---- */
+.luan-container{
+	overflow: auto;
+	width:100%;
+
+}
+.luan-container table tr{
+	height:70px;
+}
+.luan-container table tr td{
+	text-align: left;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:1.2em;
+}
+.luan-container table tr th{
+	font-size:25px;
+}
+.luan-container p span{
+	font-weight: bold;
+}
+
+#luan-pic{
+	float : right;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-right:100px;
+    height: auto; 
+    width: auto; 
+    max-width: 450px; 
+    max-height: 450px;
+}
+.luan-container button{
+	background: none;
+	border:1px solid #2554a4;
+	padding:10px 20px;
+	font-size:20px;
+	cursor:pointer;
+	color:#2554a4;
+	border-radius: 5px;
+	margin-bottom:50px;
+}
+.luan-container button:hover{
+	background-color: #2554a4;
+	color:white;
+	box-shadow: 2px 5px 10px #2554a4;
+}
+.luan-container section{
+	width:40%;
+	margin-top:50px;
+}
+.luan-container table tr td a{
+	color:#2554a4;
+}
 /*END OF CONTENT STYLING*/
 /*FOOTER*/
 .footer-panel{
@@ -148,6 +202,7 @@ img{
 	background-color:#f2f2f2;
 	color:#727b8c;
 }
+
 /*--------------------------------------------------------------*/
 /*DESKTOP query*/
 @media (min-width: 992px) {
